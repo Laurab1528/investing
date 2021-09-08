@@ -1,0 +1,322 @@
+h1{
+    color:darkturquoise;
+    
+}
+
+h4{
+    color:darkturquoise;
+}
+
+th {
+    background-color: rgba(244, 248, 248, 0.815);
+    border: 0.5px solid;
+   }
+
+.colordeparrafo{
+    color:teal
+}
+.tablas{
+    text-align: center;
+    font-size: 120%;
+}
+table {
+    border: 3px solid;
+    font-size: 12px;
+   }
+
+h3{
+    color: rgba(28, 141, 235, 0.877);
+}
+
+.fondoFuerteriesgo {
+    background-color: rgb(255, 94, 0);
+    
+ }
+
+ .fondoFuertemoderado {
+    background-color: rgb(255, 238, 0);
+    
+ }
+
+ .fondoFuerteconservador {
+    background-color: rgb(0, 255, 21);
+    
+ }
+
+#primertitulo{
+color:rgb(152, 203, 251);
+}
+
+.italic{
+    font-style: italic;
+    
+
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.textogrande{
+    position: relative;
+    text-align: center;
+    font-size: 200%;
+    
+
+}
+
+.textopeque{
+    position: relative;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(95, 184, 175);
+    
+
+}
+
+
+
+ li {
+    display: inline-block;
+    width: 20%;
+ 
+ }
+ 
+ ul li a:hover {
+    background-color:yellow;
+    color: white;
+    padding: 4px;
+ }
+ 
+ a {
+     text-decoration: none;
+     padding: 4px;
+ }
+ section{
+	margin: auto;
+	display: inline-block;
+}
+
+
+section article {
+	background-color: #cccccce7;
+	width: 500px;
+	height: 300px;
+	padding: 40px;
+    
+    
+}
+
+.bloque1{
+    margin:auto;
+    width: 1000px;
+    
+
+}
+
+.titulo{
+    float:left;
+    width: 1000px;
+}
+
+.fondo{
+    float: left;
+    width: 1250px;
+    background-color: turquoise;
+    height: 326px;
+}
+
+.logo{
+    float:left;
+    margin-left: 8%;
+    margin-top: 100px;
+    border:solid 1px;
+    
+}
+.contenidos{
+
+    float:left;
+    width: 1000px;
+    padding-bottom:10px;
+    background-color: #43b856;
+
+}
+
+section article p {
+	line-height: 4;
+}
+
+.otraSeccion {
+	margin: 0px 5px;
+
+}
+
+.otraSeccion h3 {
+	letter-spacing: 2rem;
+	font-size: 2rem;
+
+}
+.titulo1{
+	color:rgba(28, 141, 235, 0.877);    
+	text-decoration: underline;
+    font-style: italic;
+    line-height:4px;
+    padding-bottom:15px;
+    
+    
+
+}
+
+.titulo2{
+	color:black; 
+    line-height:4px; 
+    padding-bottom:25px;
+    
+}
+
+
+
+#main{
+    display: flex;
+    flex:1;
+}
+
+
+article,nav{
+    background-color: cadetblue;
+    
+}
+
+
+
+header,footer,aside{
+    background-color:turquoise;
+    margin:auto;
+}
+
+article,nav,aside,header,footer{
+    flex:1;
+    padding:1rem;
+    margin: auto;
+    flex-direction: row;
+}
+
+.cajagrande{
+
+    height: 400px;
+    background-color: turquoise;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    
+}
+
+.caja1{
+    background-color: rgb(42, 165, 144);
+    height:375px;
+    width:50%;
+
+
+}
+
+.caja2{
+
+    background-color: rgba(80, 255, 246, 0.836);
+    height: 375px;
+    width:25%;
+    
+}
+
+
+.caja3{
+    background-color: rgb(100, 237, 184);
+    height:375px;
+    width: 25%;
+    order: 2;
+    
+    
+}
+
+.grid{
+
+    height: 400px;
+    background-color: turquoise;
+    display: grid;
+    align-content: center;
+    justify-content: space-around;
+    grid-template-columns: 20% 30% 20% 30%;
+    grid-area: header;
+    grid-row: 100px,300px,400px;
+    grid-template-areas:"header header producto producto"
+                        "header header producto producto"
+                        "footer footer producto producto";
+
+}
+
+.grid1{
+    background-image: linear-gradient(to left,#3279a8, #5dcfcf);  
+    height:200px;
+    width:50%;
+    grid-area: header;
+
+}
+
+.grid2{
+
+    background-color:  rgb(138, 238, 233);
+    height: 400px;
+    width:100%;
+    align-self: center;
+    grid-area:producto ;
+   
+}
+
+
+.grid3{
+    background-image: linear-gradient(to top,#3279a8, #5dcfcf);
+    height:100px;
+    width: 50%;
+    grid-area: footer;
+    
+}
+
+
+.article a{
+    display: none;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+@media screen and (min-width:600px){
+.article{
+    display: block;
+    width: 100%;
+
+}}
+
+
+
+footer section h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+  }
+
+.Transicion:hover {
+    transition: 3s;
+    font-size: 3rem;
+  }
+
+  .logo:hover{
+    height: 200px; width: 200px;
+    transform: skewY(25deg);   
+    padding: 20px;
+    
+     
+  }
+
+  .transform1{
+    transform: translate(500px, 100px)
+  }
